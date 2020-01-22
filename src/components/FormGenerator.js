@@ -29,7 +29,7 @@ class FormGenerator extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <h1>DYNAMIC FORM GENERATOR</h1>
+                <h1>DYNAMIC FORMS</h1>
                 {
                     this.state.formElements &&
                     this.state.formElements.map((item, i) => {
