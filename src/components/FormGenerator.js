@@ -2,7 +2,6 @@ import React from 'react';
 import { formElements } from '../formElements';
 import TextInput from './TextInput';
 import TextArea from './TextArea';
-import validate from 'validate';
 
 class FormGenerator extends React.Component {
     state = {
